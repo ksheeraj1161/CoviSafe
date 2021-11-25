@@ -1,2 +1,2 @@
 # IWP
-CoviCare
+CoviSafe
