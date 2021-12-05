@@ -65,7 +65,7 @@
   <div id="landing" class="mt-5">
     <div class="container-fluid row">
       <div class="col-1"></div>
-      <div class="col-4">
+      <div class="col-4"> 
         <h1>
           STAY <span>HOME</span>
           <br>
@@ -446,3 +446,17 @@
 </body>
 
 </html>
+
+              <% var i;
+              for(i=0;i<size;i++)
+              {%>
+                <div class="col-2">
+                  <div class="card h-100">
+                    <img src="<%= array[i].url %>" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-text"><%= array[i].content %></p>
+                    </div>
+                  </div>
+                </div>
+                <% } %>
+              </div>
